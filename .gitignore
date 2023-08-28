@@ -1,0 +1,23 @@
+# Ignore shell script backup files
+*.bak
+
+# Ignore compiled binaries (if any)
+*.o
+*.out
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore user-specific files (e.g., history files)
+.history
+
+# Ignore build directories (e.g., if you generate files during development)
+/build
+
+# Ignore dependencies and virtual environments (if applicable)
+/node_modules
+/venv
+
+# Ignore editor/IDE-specific files and directories (e.g., Visual Studio Code)
+.vscode

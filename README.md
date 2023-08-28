@@ -18,16 +18,21 @@ Here's an example of what a myapp.sh file could look like:
 
 ```
 #!/bin/bash
+
 source main.sh
+
 declare -A MyTerminal=(
     ["app_name"]="xfce4-terminal"
-    ["window_name"]="TopTerminal"
+    ["window_name"]="ResourceCheck"
     ["top_x"]=300
     ["top_y"]=0
     ["width"]=300
     ["height"]=400
     ["command"]="top"
 )
+
+#run configuration
+proceed_application MyTerminal
 ```
 
 This project is licensed under the MIT License.
